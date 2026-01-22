@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Journey</title>
+    <link rel="stylesheet" href="p.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="clock" id="clock"></div>
+
+<div class="main">
+
+    <!-- LEFT : TO DO LIST -->
+    <div class="left">
+        <h1><u>TO-DO LIST</u></h1>
+
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <input type="date" id="dateInput">
+            <button id="addTask">ADD</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- RIGHT : JOURNEY -->
+    <div class="right">
+        <h1><u>JOURNEY</u></h1>
+
+        <div class="journey-buttons">
+            <button class="wd" id="webBtn">WEB DEVELOPMENT</button>
+            <button class="cd" id="codeBtn">CODING</button>
+        </div>
+
+        <div id="roadmap" class="roadmap">
+            <p>Select a path to see the roadmap 🚀</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<footer class="footer">
+    <p>Built with ❤️ by Smr | © 2026</p>
+</footer>
+
+</body>
+</html>
